@@ -1,0 +1,12 @@
+.heading {
+    background-color: rgba(16, 15, 15, 0.776);
+    box-sizing: border-box;
+    display: flex;
+    flex:100%;
+    justify-content: center;
+  }
+  
+  h2 {
+    color: white;
+  }
+  

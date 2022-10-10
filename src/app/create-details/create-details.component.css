@@ -1,0 +1,65 @@
+h3 {
+  color: rgba(16, 15, 15, 0.776);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+}
+.frame {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  width: 40%;
+  background-color: #ccc;
+  display: grid;
+  gap: 20px;
+}
+.name {
+  display: grid;
+}
+.address {
+  display: grid;
+}
+.phone {
+  display: grid;
+}
+.course {
+  display: grid;
+}
+
+label {
+  font: bold;
+  color: #555;
+}
+
+input {
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+button {
+  border-radius: 3px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+select{
+  border:none;
+  border-radius: 3px;
+}

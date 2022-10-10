@@ -1,0 +1,38 @@
+
+.frame1{
+    display:flex;
+    flex:100%;
+    justify-content: center;
+}
+
+h2{
+    color:rgba(16, 15, 15, 0.776);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+}
+
+.body{
+    
+    display:flex;
+    flex:100%;
+    
+
+}
+
+.frame2{
+    display:flex;
+    flex:100%;
+    padding-top: 20%;
+    justify-content: center;
+}
+
+.view{
+    width:200px;
+    height:50px;
+    background-color: rgba(61, 45, 45, 0.776);
+    color:white;
+    font-size: large;
+    border:none;
+    border-radius: 3px;
+}
+

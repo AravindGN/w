@@ -1,0 +1,81 @@
+h3 {
+  color: rgba(16, 15, 15, 0.776);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+}
+
+.add {
+  color: white;
+  background-color: rgb(39, 39, 237);
+  border: none;
+  border-radius: 3px;
+  width: 100px;
+  height: 30px;
+}
+.update{
+    color:white;
+    background-color: rgb(39, 39, 237);
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+}
+.delete{
+  
+    color:white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+}
+
+
+
+.frame {
+  width: 100%;
+}
+
+.body {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.frame3 {
+  padding-top: 30px;
+  display: flex;
+  flex: 100%;
+}
+
+table {
+  width: 100%;
+  justify-content: center;
+}
+
+th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  
+}
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+tr:nth-child(odd) {
+  border: none;
+  background-color: #DDD;
+}
+tr:nth-child(even) {
+    border: none;
+    background-color: #FFF;
+  }
+
+  td:nth-last-child(1){
+    display: flex;
+    background-color:#CCC;
+    justify-content: space-evenly;
+  }

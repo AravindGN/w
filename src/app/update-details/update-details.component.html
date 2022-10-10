@@ -1,0 +1,27 @@
+<div class="frame"><div class="header"><h3>Update Student Details</h3> <button routerLink="">Back</button></div>
+<div class="form">  
+    <form [formGroup]="datas">
+    <div class="name"><label for="name">Student Name </label>
+    <input type="text" id="name" formControlName="name" name="Name" placeholder="name.." ></div>
+   <div class="phone"><label for="number">Student PhoneNo</label>
+    <input type="number" id="number" formControlName="number" name="number" placeholder=" phone.."></div> 
+    <div class="address"><label for="address">Student Address</label>
+    <input type="text" id="address" formControlName="address" name="address" placeholder=" address.."></div>
+    <div class="course"><label for="course">Student course</label>
+    <!-- <input type="text" id="course" formControlName="course" name="course" placeholder="course.."></div> -->
+    <select Name="Name_of_list_box" Size="3" formControlName="course" id="course">  
+      <option> BE Mechanical</option>  
+      <option> BE Civil </option>  
+      <option> BE ComputerScience </option>  
+      <option> BE Electrical</option>
+      <option> BE Electronics And Communication</option>
+      <option> BE Electrical And Electronics</option>
+      <option> BE Aeronautical</option> 
+      <option> BE BioTechnology</option> 
+    </select> </div>
+   <button type="button" (click)="share()"> 
+        SUBMIT
+      </button>
+</form>
+</div>
+</div>
