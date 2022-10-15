@@ -5,7 +5,8 @@
     <h3>Students List</h3>
 </div>
 <div class="frame2">
-<button class="add" routerLink="add">ADD Student</button></div>
+<button class="add" routerLink="add">ADD Student</button>
+<input class="search" (keyup)="search($event)"  placeholder ="search" ></div>
 
 <div class="frame3">
     <table class="table">
@@ -29,11 +30,12 @@
     
        
 </div>
- <button *ngFor="let p of this.page ; let i = index" (click)="newpage(i)" [ngClass]="{'active':currentPage=== i+1}">
-    {{i+1}}
-</button> 
-<!-- <button (click)="click(newHero.value)">PageSize</button>
-<input #newHero >  -->
-    
+<div class="pagination">
+    <div class="first"> <button (click)="first()">First</button> </div>
+    <div class="previous"> <button (click)="previous()">previous</button> </div>
+    <div class="next"> <button (click)="next()">next</button> </div>
+<div class="last" > <button (click)="last()">last</button> </div>  
+
+</div>
 </div>
 </div>

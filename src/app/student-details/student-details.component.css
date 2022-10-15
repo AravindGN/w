@@ -35,7 +35,16 @@ h3 {
 .frame {
   width: 100%;
 }
-
+.frame2{
+  
+  display: flex;
+  justify-content: space-between;
+}
+.search{
+  border:none;
+  background-color: #CCC;
+  border-radius: 7px;
+}
 .body {
   padding-left: 100px;
   padding-right: 100px;
@@ -78,4 +87,20 @@ tr:nth-child(even) {
     display: flex;
     background-color:#CCC;
     justify-content: space-evenly;
+  }
+  .pagination{
+    display:flex;
+    justify-content:center;
+  }
+
+  button{
+background-color: blue;
+color: white;
+/* height:30px;
+width: 30px; */
+border:1px solid white;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
   }
